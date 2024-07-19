@@ -11,7 +11,14 @@ import SwiftUI
 struct Rick_MortyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RNMainView(
+                viewModel: RNMViewModel(
+                    api: CombineApi(),
+                    manager: NetworkMonitor()
+                )
+            )
+            .environment(\.colorScheme, .dark)
         }
     }
 }
+

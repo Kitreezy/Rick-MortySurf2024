@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		572BF1A32C4860C00067B69C /* Rick_MortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1A22C4860C00067B69C /* Rick_MortyApp.swift */; };
-		572BF1A52C4860C00067B69C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1A42C4860C00067B69C /* ContentView.swift */; };
+		572BF1A52C4860C00067B69C /* RNMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1A42C4860C00067B69C /* RNMainView.swift */; };
 		572BF1A72C4860C30067B69C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572BF1A62C4860C30067B69C /* Assets.xcassets */; };
 		572BF1AA2C4860C30067B69C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572BF1A92C4860C30067B69C /* Preview Assets.xcassets */; };
 		572BF1B42C4860C30067B69C /* Rick_MortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1B32C4860C30067B69C /* Rick_MortyTests.swift */; };
 		572BF1BE2C4860C30067B69C /* Rick_MortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1BD2C4860C30067B69C /* Rick_MortyUITests.swift */; };
 		572BF1C02C4860C30067B69C /* Rick_MortyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1BF2C4860C30067B69C /* Rick_MortyUITestsLaunchTests.swift */; };
+		572BF1D22C48614B0067B69C /* RNMCellCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1D12C48614B0067B69C /* RNMCellCharacterView.swift */; };
+		572BF1D42C4861560067B69C /* CellFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1D32C4861560067B69C /* CellFrames.swift */; };
+		572BF1D62C4861680067B69C /* CellFramesScrollTargetBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1D52C4861680067B69C /* CellFramesScrollTargetBehavior.swift */; };
+		572BF1DB2C4875E50067B69C /* RNMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1DA2C4875E50067B69C /* RNMViewModel.swift */; };
+		572BF1DD2C4878F80067B69C /* RNMCharacterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1DC2C4878F80067B69C /* RNMCharacterResponse.swift */; };
+		572BF1DF2C4879340067B69C /* RNMCharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1DE2C4879340067B69C /* RNMCharacterModel.swift */; };
+		572BF1E22C48800A0067B69C /* CombineApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1E12C48800A0067B69C /* CombineApi.swift */; };
+		572BF1E42C4880A60067B69C /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1E32C4880A60067B69C /* NetworkMonitor.swift */; };
+		572BF1E62C48834D0067B69C /* ServerApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1E52C48834D0067B69C /* ServerApi.swift */; };
+		572BF1E82C4883A70067B69C /* WiFiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF1E72C4883A70067B69C /* WiFiManager.swift */; };
+		572BF2132C49FDFD0067B69C /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF2122C49FDFD0067B69C /* CharacterView.swift */; };
+		572BF2192C4A442F0067B69C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572BF2182C4A442F0067B69C /* LaunchScreen.storyboard */; };
+		572BF21E2C4A57C00067B69C /* RNMEpisodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF21D2C4A57C00067B69C /* RNMEpisodeModel.swift */; };
+		572BF2202C4A57D90067B69C /* RNMEpisodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF21F2C4A57D90067B69C /* RNMEpisodeResponse.swift */; };
+		572BF2222C4A6A390067B69C /* RNMEpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BF2212C4A6A390067B69C /* RNMEpisodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,7 @@
 /* Begin PBXFileReference section */
 		572BF19F2C4860C00067B69C /* Rick&Morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick&Morty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		572BF1A22C4860C00067B69C /* Rick_MortyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_MortyApp.swift; sourceTree = "<group>"; };
-		572BF1A42C4860C00067B69C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		572BF1A42C4860C00067B69C /* RNMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNMainView.swift; sourceTree = "<group>"; };
 		572BF1A62C4860C30067B69C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		572BF1A92C4860C30067B69C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		572BF1AF2C4860C30067B69C /* Rick&MortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rick&MortyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +59,21 @@
 		572BF1B92C4860C30067B69C /* Rick&MortyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rick&MortyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		572BF1BD2C4860C30067B69C /* Rick_MortyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_MortyUITests.swift; sourceTree = "<group>"; };
 		572BF1BF2C4860C30067B69C /* Rick_MortyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_MortyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		572BF1D12C48614B0067B69C /* RNMCellCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNMCellCharacterView.swift; sourceTree = "<group>"; };
+		572BF1D32C4861560067B69C /* CellFrames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellFrames.swift; sourceTree = "<group>"; };
+		572BF1D52C4861680067B69C /* CellFramesScrollTargetBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellFramesScrollTargetBehavior.swift; sourceTree = "<group>"; };
+		572BF1DA2C4875E50067B69C /* RNMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNMViewModel.swift; sourceTree = "<group>"; };
+		572BF1DC2C4878F80067B69C /* RNMCharacterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNMCharacterResponse.swift; sourceTree = "<group>"; };
+		572BF1DE2C4879340067B69C /* RNMCharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNMCharacterModel.swift; sourceTree = "<group>"; };
+		572BF1E12C48800A0067B69C /* CombineApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineApi.swift; sourceTree = "<group>"; };
+		572BF1E32C4880A60067B69C /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		572BF1E52C48834D0067B69C /* ServerApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerApi.swift; sourceTree = "<group>"; };
+		572BF1E72C4883A70067B69C /* WiFiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiManager.swift; sourceTree = "<group>"; };
+		572BF2122C49FDFD0067B69C /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		572BF2182C4A442F0067B69C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		572BF21D2C4A57C00067B69C /* RNMEpisodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNMEpisodeModel.swift; sourceTree = "<group>"; };
+		572BF21F2C4A57D90067B69C /* RNMEpisodeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNMEpisodeResponse.swift; sourceTree = "<group>"; };
+		572BF2212C4A6A390067B69C /* RNMEpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNMEpisodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +124,12 @@
 		572BF1A12C4860C00067B69C /* Rick&Morty */ = {
 			isa = PBXGroup;
 			children = (
+				572BF21C2C4A56CE0067B69C /* SupportingFiles */,
+				572BF1E02C487FE60067B69C /* Service */,
+				572BF1D72C48757C0067B69C /* ViewModel */,
+				572BF1CD2C4860FA0067B69C /* View */,
+				572BF1CC2C4860EC0067B69C /* Model */,
 				572BF1A22C4860C00067B69C /* Rick_MortyApp.swift */,
-				572BF1A42C4860C00067B69C /* ContentView.swift */,
-				572BF1A62C4860C30067B69C /* Assets.xcassets */,
-				572BF1A82C4860C30067B69C /* Preview Content */,
 			);
 			path = "Rick&Morty";
 			sourceTree = "<group>";
@@ -125,6 +157,83 @@
 				572BF1BF2C4860C30067B69C /* Rick_MortyUITestsLaunchTests.swift */,
 			);
 			path = "Rick&MortyUITests";
+			sourceTree = "<group>";
+		};
+		572BF1CC2C4860EC0067B69C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				572BF21B2C4A56AC0067B69C /* RNMEpisodeModels */,
+				572BF21A2C4A56710067B69C /* RNMCharacterModels */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		572BF1CD2C4860FA0067B69C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				572BF2092C4998650067B69C /* RNMCharacterDetailView */,
+				572BF1A42C4860C00067B69C /* RNMainView.swift */,
+				572BF2122C49FDFD0067B69C /* CharacterView.swift */,
+				572BF2212C4A6A390067B69C /* RNMEpisodeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		572BF1D72C48757C0067B69C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				572BF1DA2C4875E50067B69C /* RNMViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		572BF1E02C487FE60067B69C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				572BF1E12C48800A0067B69C /* CombineApi.swift */,
+				572BF1E32C4880A60067B69C /* NetworkMonitor.swift */,
+				572BF1E52C48834D0067B69C /* ServerApi.swift */,
+				572BF1E72C4883A70067B69C /* WiFiManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		572BF2092C4998650067B69C /* RNMCharacterDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				572BF1D52C4861680067B69C /* CellFramesScrollTargetBehavior.swift */,
+				572BF1D32C4861560067B69C /* CellFrames.swift */,
+				572BF1D12C48614B0067B69C /* RNMCellCharacterView.swift */,
+			);
+			path = RNMCharacterDetailView;
+			sourceTree = "<group>";
+		};
+		572BF21A2C4A56710067B69C /* RNMCharacterModels */ = {
+			isa = PBXGroup;
+			children = (
+				572BF1DE2C4879340067B69C /* RNMCharacterModel.swift */,
+				572BF1DC2C4878F80067B69C /* RNMCharacterResponse.swift */,
+			);
+			path = RNMCharacterModels;
+			sourceTree = "<group>";
+		};
+		572BF21B2C4A56AC0067B69C /* RNMEpisodeModels */ = {
+			isa = PBXGroup;
+			children = (
+				572BF21D2C4A57C00067B69C /* RNMEpisodeModel.swift */,
+				572BF21F2C4A57D90067B69C /* RNMEpisodeResponse.swift */,
+			);
+			path = RNMEpisodeModels;
+			sourceTree = "<group>";
+		};
+		572BF21C2C4A56CE0067B69C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				572BF1A82C4860C30067B69C /* Preview Content */,
+				572BF1A62C4860C30067B69C /* Assets.xcassets */,
+				572BF2182C4A442F0067B69C /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572BF2192C4A442F0067B69C /* LaunchScreen.storyboard in Resources */,
 				572BF1AA2C4860C30067B69C /* Preview Assets.xcassets in Resources */,
 				572BF1A72C4860C30067B69C /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +367,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				572BF1A52C4860C00067B69C /* ContentView.swift in Sources */,
+				572BF2222C4A6A390067B69C /* RNMEpisodeView.swift in Sources */,
+				572BF1E42C4880A60067B69C /* NetworkMonitor.swift in Sources */,
+				572BF1E82C4883A70067B69C /* WiFiManager.swift in Sources */,
+				572BF1DB2C4875E50067B69C /* RNMViewModel.swift in Sources */,
+				572BF1A52C4860C00067B69C /* RNMainView.swift in Sources */,
+				572BF1E62C48834D0067B69C /* ServerApi.swift in Sources */,
+				572BF2202C4A57D90067B69C /* RNMEpisodeResponse.swift in Sources */,
+				572BF1D62C4861680067B69C /* CellFramesScrollTargetBehavior.swift in Sources */,
+				572BF1D42C4861560067B69C /* CellFrames.swift in Sources */,
+				572BF1D22C48614B0067B69C /* RNMCellCharacterView.swift in Sources */,
+				572BF1DF2C4879340067B69C /* RNMCharacterModel.swift in Sources */,
+				572BF1E22C48800A0067B69C /* CombineApi.swift in Sources */,
+				572BF2132C49FDFD0067B69C /* CharacterView.swift in Sources */,
+				572BF21E2C4A57C00067B69C /* RNMEpisodeModel.swift in Sources */,
+				572BF1DD2C4878F80067B69C /* RNMCharacterResponse.swift in Sources */,
 				572BF1A32C4860C00067B69C /* Rick_MortyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +528,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -421,15 +545,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Rick&Morty/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Rick&Morty/SupportingFiles/Preview Content\"";
 				DEVELOPMENT_TEAM = LJZ97X76W9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,15 +576,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Rick&Morty/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Rick&Morty/SupportingFiles/Preview Content\"";
 				DEVELOPMENT_TEAM = LJZ97X76W9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
